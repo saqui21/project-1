@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding-top: 200px;
+}
+body {
+  width: 100wh;
+  width: 100wh;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+}
+.logo {
+  color: green;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  font-family: "Poppins", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  font-family: "Poppins", sans-serif;
+}
+nav ul li a {
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+/* section two of website */
+.index-sec2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  /* gap: 1 0; */
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 50px;
+  /* align-items: center; */
+  /* padding: 0 4rem; */
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.sec3 {
+  flex-direction: row;
+  display: flex;
+  align-items: flex-start;
+  padding: 4 1rem;
+  gap: 10px;
+}
+
+.order {
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid green;
+  font-family: "Poppins", sans-serif;
+}
+
+.log-in {
+  background-color: white;
+  color: green;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid green;
+  font-family: "Poppins", sans-serif;
+}
+.create {
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid gold;
+  font-family: "Poppins", sans-serif;
+}
+.img1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+/* section 3 of web */
+.index-sec3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.part4 {
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}
+.use {
+  font-size: 2rem;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+}
+.enjoy {
+  font-size: 3rem;
+  color: rgb(13, 13, 13);
+  font-family: "Poppins", sans-serif;
+}
+.small {
+  font-size: 30px;
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+}
+.read {
+  background-color: green;
+  color: white;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 120px;
+}
+/* sec 4 of menu */
+.img2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  gap: 50px;
+}
+.headers {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.fiture {
+  margin-bottom: 200px;
+}
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+.title1 {
+  font-size: 40px;
+  color: rgb(43, 42, 42);
+  font-family: "Poppins", sans-serif;
+}
+.title2 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+.num1 {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  padding: 1em;
+  flex-wrap: wrap;
+  background-color: red;
+}
+.b2 {
+  margin-top: 0;
+  margin-left: 9rem;
+  font-size: 6em;
+  font-family: "Poppins", sans-serif;
+}
+.b1 {
+  margin-right: 250px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.b3 {
+  font-size: 20px;
+  color: rgb(3, 3, 3);
+  font-family: "Montserrat", sans-serif;
+}
+.num2 {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  padding: 1em;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.num3 {
+  display: flex;
+  width: 400px;
+  height: 500px;
+  padding: 1em;
+  flex-wrap: wrap;
+  background-color: green;
+}
+.pic1 {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.foto {
+  width: 500px;
+  height: 220px;
+}
+/* sec 5 of web */
+
+.why {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  margin-bottom: 100px;
+}
+exp {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.font1 {
+  font-size: 30px;
+  color: rgb(91, 76, 76);
+  font-family: "Montserrat", sans-serif;
+}
+.font2 {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+.font3 {
+  font-size: 20px;
+  color: rgb(39, 39, 39);
+}
+.foto2 {
+  width: 500px;
+  height: 500px;
+}
+/* sec 6 of web */
+
+.our-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* justify-content: space-between;
+    align-items: center; */
+  gap: 1rem;
+}
+.ours {
+  font-size: 25px;
+  color: rgb(39, 36, 36);
+}
+.delicious {
+  font-size: 40px;
+}
+.grid-setup {
+  font-size: 20px;
+  color: rgb(39, 36, 36);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* margin: 1fr 1fr; */
+  gap: 50px 50px;
+}
+
+.idioms {
+  display: flex;
+  gap: 50px 50px;
+}
+.round-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.view {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: 0;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 200px;
+  height: 50px;
+}
+.people-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer {
+  margin-top: 90px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(39, 36, 36);
+  text-align: center;
+  font-size: 50px;
+}
+
+.back-img {
+  height: 400px;
+  width: 500px;
+  margin-top: 50px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  scroll-margin-top: 50px;
+  margin-left: 0rem;
+}
+
+.ludgwig {
+  font-size: 2rem;
+  color: rgb(13, 13, 13);
+  font-family: "Poppins", sans-serif;
+}
+.lorem {
+  font-size: 1rem;
+  color: rgb(13, 13, 13);
+  font-family: "Poppins", sans-serif;
+}
+
+.awards {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size {
+  font-size: 90px;
+  font-family: "Poppins", sans-serif;
+  color: gold;
+}
+.aw2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  flex-direction: row;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price {
+  display: grid;
+}
+.latest{
+  margin-top: 150px;
+  
+}
+.blog{
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.last{
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.art{
+  width: 300px;
+  height: 300px;
+
+}
+.last-foto{
+  margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.pasta{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.date{
+  display: flex;
+  gap: 350px;
+  /* justify-content: space-between; */
+  /* align-items: first baseline; */
+  /* flex-direction: row; */
+  font-size: 20px;
+  color: gold;
+}
+.final{
+  background-color: black;
+  color: white;
+}
+.hero{
+  align-content: flex-start;
+
+}
+
+.row-one{
+}
+.indulge{
+  font-size: 20px;
+  
+
+}
